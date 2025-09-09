@@ -1,0 +1,352 @@
+{
+    "designSystem": {
+        "colorPalette": {
+            "primary": {
+                "blue": "#4A7CFF",
+                "blueHover": "#3D6FE8",
+                "blueLight": "#E8F0FF",
+                "blueDark": "#2E5AD9"
+            },
+            "backgrounds": {
+                "main": "#F5F6FA",
+                "card": "#FFFFFF",
+                "sidebar": "#FFFFFF",
+                "hover": "#F8F9FD"
+            },
+            "text": {
+                "primary": "#1A1D29",
+                "secondary": "#6B7280",
+                "tertiary": "#9CA3AF",
+                "inverse": "#FFFFFF"
+            },
+            "semantic": {
+                "success": "#10B981",
+                "warning": "#F59E0B",
+                "error": "#EF4444",
+                "info": "#3B82F6"
+            },
+            "borders": {
+                "light": "#E5E7EB",
+                "medium": "#D1D5DB",
+                "focus": "#4A7CFF"
+            },
+            "charts": {
+                "barPrimary": "#4A7CFF",
+                "barSecondary": "#A5B4FC",
+                "barTertiary": "#E0E7FF",
+                "lineGrid": "#F3F4F6"
+            }
+        },
+        "elementStyling": {
+            "layout": {
+                "sidebar": {
+                    "width": "260px",
+                    "background": "#FFFFFF",
+                    "borderRight": "1px solid #E5E7EB",
+                    "padding": "24px 16px"
+                },
+                "mainContent": {
+                    "background": "#F5F6FA",
+                    "padding": "32px"
+                }
+            },
+            "navigation": {
+                "menuItem": {
+                    "default": {
+                        "background": "transparent",
+                        "text": "#6B7280",
+                        "icon": "#6B7280",
+                        "padding": "12px 16px",
+                        "borderRadius": "8px",
+                        "transition": "all 0.2s ease"
+                    },
+                    "hover": {
+                        "background": "#F8F9FD",
+                        "text": "#1A1D29"
+                    },
+                    "active": {
+                        "background": "#4A7CFF",
+                        "text": "#FFFFFF",
+                        "icon": "#FFFFFF"
+                    }
+                },
+                "subMenuItem": {
+                    "marginLeft": "32px",
+                    "dotIndicator": {
+                        "size": "8px",
+                        "colorActive": "#10B981",
+                        "colorWarning": "#F59E0B",
+                        "colorDanger": "#EF4444"
+                    }
+                }
+            },
+            "cards": {
+                "standard": {
+                    "background": "#FFFFFF",
+                    "border": "none",
+                    "borderRadius": "12px",
+                    "shadow": "0 1px 3px rgba(0, 0, 0, 0.05)",
+                    "padding": "24px",
+                    "DO_NOT": "Apply gradients to card backgrounds"
+                },
+                "metric": {
+                    "background": "#FFFFFF",
+                    "borderRadius": "12px",
+                    "shadow": "0 1px 3px rgba(0, 0, 0, 0.05)",
+                    "padding": "20px",
+                    "label": {
+                        "color": "#9CA3AF",
+                        "fontSize": "12px",
+                        "fontWeight": "500",
+                        "textTransform": "uppercase",
+                        "letterSpacing": "0.5px"
+                    },
+                    "value": {
+                        "color": "#1A1D29",
+                        "fontSize": "32px",
+                        "fontWeight": "700"
+                    },
+                    "icon": {
+                        "background": "transparent",
+                        "color": "#6B7280",
+                        "DO_NOT": "Apply card background colors to icons"
+                    }
+                },
+                "taskCard": {
+                    "background": "#FFFFFF",
+                    "borderRadius": "12px",
+                    "padding": "16px",
+                    "header": {
+                        "fontSize": "14px",
+                        "fontWeight": "600",
+                        "color": "#1A1D29"
+                    },
+                    "subtitle": {
+                        "fontSize": "13px",
+                        "color": "#6B7280"
+                    },
+                    "statusIndicator": {
+                        "onGoing": "#3B82F6",
+                        "completed": "#10B981",
+                        "onHold": "#EF4444"
+                    }
+                }
+            },
+            "buttons": {
+                "primary": {
+                    "background": "#4A7CFF",
+                    "text": "#FFFFFF",
+                    "borderRadius": "8px",
+                    "padding": "10px 20px",
+                    "fontSize": "14px",
+                    "fontWeight": "600",
+                    "border": "none",
+                    "shadow": "0 1px 2px rgba(0, 0, 0, 0.05)",
+                    "hover": {
+                        "background": "#3D6FE8",
+                        "shadow": "0 2px 4px rgba(0, 0, 0, 0.1)"
+                    },
+                    "DO_NOT": "Use gradients on button backgrounds"
+                },
+                "secondary": {
+                    "background": "transparent",
+                    "text": "#6B7280",
+                    "border": "1px solid #E5E7EB",
+                    "borderRadius": "8px",
+                    "hover": {
+                        "background": "#F8F9FD",
+                        "borderColor": "#D1D5DB"
+                    }
+                },
+                "icon": {
+                    "size": "32px",
+                    "background": "#F3F4F6",
+                    "borderRadius": "50%",
+                    "iconColor": "#6B7280",
+                    "hover": {
+                        "background": "#E5E7EB"
+                    }
+                }
+            },
+            "charts": {
+                "barChart": {
+                    "background": "transparent",
+                    "bars": {
+                        "primary": "#4A7CFF",
+                        "secondary": "#E0E7FF",
+                        "borderRadius": "4px 4px 0 0",
+                        "DO_NOT": "Apply gradients to individual bars"
+                    },
+                    "grid": {
+                        "color": "#F3F4F6",
+                        "strokeWidth": "1px"
+                    },
+                    "labels": {
+                        "color": "#6B7280",
+                        "fontSize": "12px"
+                    }
+                },
+                "tooltip": {
+                    "background": "#1A1D29",
+                    "text": "#FFFFFF",
+                    "borderRadius": "6px",
+                    "padding": "8px 12px",
+                    "shadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+                }
+            },
+            "avatars": {
+                "single": {
+                    "size": "40px",
+                    "borderRadius": "50%",
+                    "border": "2px solid #FFFFFF",
+                    "shadow": "0 1px 2px rgba(0, 0, 0, 0.05)"
+                },
+                "group": {
+                    "overlap": "-8px",
+                    "maxDisplay": 3,
+                    "overflow": {
+                        "background": "#F3F4F6",
+                        "text": "#6B7280",
+                        "fontSize": "12px"
+                    }
+                }
+            },
+            "badges": {
+                "status": {
+                    "borderRadius": "12px",
+                    "padding": "4px 12px",
+                    "fontSize": "12px",
+                    "fontWeight": "600",
+                    "success": {
+                        "background": "#D1FAE5",
+                        "text": "#065F46"
+                    },
+                    "warning": {
+                        "background": "#FEF3C7",
+                        "text": "#92400E"
+                    },
+                    "error": {
+                        "background": "#FEE2E2",
+                        "text": "#991B1B"
+                    },
+                    "info": {
+                        "background": "#DBEAFE",
+                        "text": "#1E40AF"
+                    }
+                },
+                "notification": {
+                    "size": "20px",
+                    "background": "#EF4444",
+                    "text": "#FFFFFF",
+                    "borderRadius": "50%",
+                    "fontSize": "11px",
+                    "fontWeight": "700",
+                    "minWidth": "20px"
+                }
+            },
+            "typography": {
+                "heading": {
+                    "h1": {
+                        "fontSize": "24px",
+                        "fontWeight": "700",
+                        "color": "#1A1D29",
+                        "lineHeight": "1.2"
+                    },
+                    "h2": {
+                        "fontSize": "20px",
+                        "fontWeight": "600",
+                        "color": "#1A1D29",
+                        "lineHeight": "1.3"
+                    },
+                    "h3": {
+                        "fontSize": "16px",
+                        "fontWeight": "600",
+                        "color": "#1A1D29",
+                        "lineHeight": "1.4"
+                    }
+                },
+                "body": {
+                    "regular": {
+                        "fontSize": "14px",
+                        "fontWeight": "400",
+                        "color": "#6B7280",
+                        "lineHeight": "1.5"
+                    },
+                    "small": {
+                        "fontSize": "12px",
+                        "fontWeight": "400",
+                        "color": "#9CA3AF",
+                        "lineHeight": "1.5"
+                    }
+                },
+                "label": {
+                    "fontSize": "12px",
+                    "fontWeight": "500",
+                    "color": "#9CA3AF",
+                    "textTransform": "uppercase",
+                    "letterSpacing": "0.5px"
+                }
+            },
+            "inputs": {
+                "search": {
+                    "background": "#F3F4F6",
+                    "border": "1px solid transparent",
+                    "borderRadius": "8px",
+                    "padding": "10px 16px 10px 40px",
+                    "fontSize": "14px",
+                    "placeholder": "#9CA3AF",
+                    "iconColor": "#9CA3AF",
+                    "focus": {
+                        "border": "1px solid #4A7CFF",
+                        "background": "#FFFFFF"
+                    }
+                }
+            },
+            "percentageDisplay": {
+                "positive": {
+                    "color": "#10B981",
+                    "fontWeight": "700",
+                    "fontSize": "32px"
+                },
+                "negative": {
+                    "color": "#EF4444",
+                    "fontWeight": "700",
+                    "fontSize": "32px"
+                }
+            }
+        },
+        "spacing": {
+            "xxs": "4px",
+            "xs": "8px",
+            "sm": "12px",
+            "md": "16px",
+            "lg": "24px",
+            "xl": "32px",
+            "xxl": "48px"
+        },
+        "shadows": {
+            "xs": "0 1px 2px rgba(0, 0, 0, 0.05)",
+            "sm": "0 1px 3px rgba(0, 0, 0, 0.05)",
+            "md": "0 2px 4px rgba(0, 0, 0, 0.1)",
+            "lg": "0 4px 12px rgba(0, 0, 0, 0.15)",
+            "xl": "0 8px 24px rgba(0, 0, 0, 0.2)"
+        },
+        "transitions": {
+            "fast": "0.15s ease",
+            "default": "0.2s ease",
+            "slow": "0.3s ease"
+        },
+        "DO_NOT_RULES": [
+            "Do not apply gradients to any backgrounds - use solid colors only",
+            "Do not use card background colors on icon fills",
+            "Do not apply shadows to text elements",
+            "Do not use primary button colors for regular text",
+            "Do not apply border radius to inline elements",
+            "Do not use notification badge styles for regular badges",
+            "Do not apply card shadows to nested elements",
+            "Do not use heading colors for body text",
+            "Do not apply hover states to static elements",
+            "Do not use sidebar styles for main content areas"
+        ]
+    }
+}
